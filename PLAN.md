@@ -23,7 +23,8 @@ Goal: turn the "RJ Code Craft Website" design into a static site, host it on Git
 - [x] Add `assets/favicon.svg`; keep the drawn phone mockup (decided 2026-10-19)
 - [~] Add SEO and share tags: title, description and Open Graph text are done; still need `og:image`, `og:url` and canonical URL once the live URL is known
 - [x] Add `404.html`
-- [ ] Add `app-ads.txt`: the privacy policy says the app uses AdMob, so this is needed; waiting for the AdMob publisher ID (`pub-…`)
+- [x] Add `app-ads.txt` (AdMob `pub-5915419200767915`)
+- [ ] Serve `app-ads.txt` at the domain root (`https://asmrakibulhasan.github.io/app-ads.txt`): needs an `asmRakibulHasan.github.io` repo or a custom domain
 - [x] Add `README.md` and `.nojekyll`
 - [ ] Review locally and get approval (`python3 -m http.server 8000` → http://localhost:8000)
 
@@ -62,7 +63,7 @@ rj-code-craft-web/
 | # | Question | Answer |
 |---|----------|--------|
 | 1 | GitHub username, and repo type (`username.github.io` or project repo)? | `asmRakibulHasan`, project repo `rj_code_craft_web` |
-| 2 | Do you use AdMob or other ads? AdMob publisher ID (`pub-…`)? | The privacy policy lists AdMob; need the publisher ID |
+| 2 | Do you use AdMob or other ads? AdMob publisher ID (`pub-…`)? | Yes, AdMob `pub-5915419200767915` |
 | 3 | Privacy policy: copy into the site, or keep the Google Sites link? | Keep using Google Sites; the website links there |
 | 4 | Custom domain, or `github.io` for now? | |
 | 5 | Real app icon and screenshots, or keep the drawn mockup? | Keep the drawn mockup |
@@ -77,6 +78,7 @@ rj-code-craft-web/
 | Date | Update |
 |------|--------|
 | 2026-10-19 | Reviewed the design and wrote the plan (Phases 0–3). |
+| 2026-10-19 | Added `app-ads.txt` (AdMob `pub-5915419200767915`). |
 | 2026-10-19 | Privacy policy: switched to the Google Sites link and removed the local copy. Checked the Play listing: title "Prank Sounds: Air Horn & Taser", privacy policy = Google Sites. |
 | 2026-10-19 | Pushed to GitHub (`asmRakibulHasan/rj_code_craft_web`, branch `main`). |
 | 2026-10-19 | Phase 1 built: `index.html`, `styles.css`, `privacy-policy.html`, `404.html`, `assets/favicon.svg`, `README.md`, `.nojekyll`. Checked in Chrome at desktop and phone widths. Privacy links now point to the local page instead of Google Sites. |
