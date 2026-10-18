@@ -26,7 +26,7 @@ Goal: turn the "RJ Code Craft Website" design into a static site, host it on Git
 - [x] Add `404.html`
 - [x] Add `app-ads.txt` (AdMob `pub-5915419200767915`)
 - [x] Serve `app-ads.txt` at the domain root: https://asmrakibulhasan.github.io/app-ads.txt (repo `asmRakibulHasan.github.io`, `63b51a4`)
-- [x] Add `README.md` and `.nojekyll`
+- [x] Add `.nojekyll` (`README.md` removed 2026-10-19)
 - [ ] Review locally and get approval (`python3 -m http.server 8000` → http://localhost:8000)
 
 Target structure:
@@ -37,8 +37,7 @@ rj-code-craft-web/
 ├── assets/
 ├── app-ads.txt      (if AdMob)
 ├── 404.html
-├── .nojekyll
-└── README.md
+└── .nojekyll
 ```
 
 ## Phase 2: Publish on GitHub Pages
@@ -80,6 +79,7 @@ rj-code-craft-web/
 | Date | Update |
 |------|--------|
 | 2026-10-19 | Reviewed the design and wrote the plan (Phases 0–3). |
+| 2026-10-19 | Removed `README.md` from the website repo. |
 | 2026-10-19 | Google Sites policy updated to the Play app name; checked. |
 | 2026-10-19 | Website added in Play Console; it now shows on the Play listing. |
 | 2026-10-19 | Website live on GitHub Pages; all links checked. Created the `asmRakibulHasan.github.io` repo; `app-ads.txt` is live at the domain root. |
