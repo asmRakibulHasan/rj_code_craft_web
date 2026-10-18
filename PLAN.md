@@ -3,7 +3,8 @@
 Goal: turn the "RJ Code Craft Website" design into a static site, host it on GitHub Pages, and link it from Google Play Console.
 
 - Design source: https://claude.ai/artifact/9YktRogdYRj7DH8mnr7w1M
-- Live site URL: https://asmrakibulhasan.github.io/rj_code_craft_web/ (once Pages is on)
+- Live site URL: https://asmrakibulhasan.github.io/rj_code_craft_web/
+- app-ads.txt URL: https://asmrakibulhasan.github.io/app-ads.txt (repo `asmRakibulHasan/asmRakibulHasan.github.io`)
 - GitHub repo: https://github.com/asmRakibulHasan/rj_code_craft_web
 
 **Status legend:** `[x]` done · `[ ]` to do · `[~]` in progress
@@ -24,7 +25,7 @@ Goal: turn the "RJ Code Craft Website" design into a static site, host it on Git
 - [~] Add SEO and share tags: title, description and Open Graph text are done; still need `og:image`, `og:url` and canonical URL once the live URL is known
 - [x] Add `404.html`
 - [x] Add `app-ads.txt` (AdMob `pub-5915419200767915`)
-- [ ] Serve `app-ads.txt` at the domain root (`https://asmrakibulhasan.github.io/app-ads.txt`): needs an `asmRakibulHasan.github.io` repo or a custom domain
+- [x] Serve `app-ads.txt` at the domain root: https://asmrakibulhasan.github.io/app-ads.txt (repo `asmRakibulHasan.github.io`, `63b51a4`)
 - [x] Add `README.md` and `.nojekyll`
 - [ ] Review locally and get approval (`python3 -m http.server 8000` → http://localhost:8000)
 
@@ -44,9 +45,9 @@ rj-code-craft-web/
 - [x] `git init` and first commit (`f0d4f2a`)
 - [x] Create the GitHub repo: `asmRakibulHasan/rj_code_craft_web` (project repo, so `app-ads.txt` needs a custom domain or a user-site repo)
 - [x] Push to `main`
-- [ ] Turn on Pages: Settings → Pages → deploy from `main` / root
+- [x] Make the repo public and turn on Pages: Settings → Pages → deploy from `main` / root
 - [ ] (Optional) Custom domain: `CNAME` file + DNS records + enforce HTTPS
-- [ ] Check that the home page, privacy policy link and all Play links open
+- [x] Check that the home page, privacy policy link and all Play links open (all 200)
 
 > Note: `app-ads.txt` must sit at the **domain root**. A project repo (`username.github.io/repo/`) won't work for it; use a user-site repo or a custom domain.
 
@@ -78,6 +79,7 @@ rj-code-craft-web/
 | Date | Update |
 |------|--------|
 | 2026-10-19 | Reviewed the design and wrote the plan (Phases 0–3). |
+| 2026-10-19 | Website live on GitHub Pages; all links checked. Created the `asmRakibulHasan.github.io` repo; `app-ads.txt` is live at the domain root. |
 | 2026-10-19 | Added `app-ads.txt` (AdMob `pub-5915419200767915`). |
 | 2026-10-19 | Privacy policy: switched to the Google Sites link and removed the local copy. Checked the Play listing: title "Prank Sounds: Air Horn & Taser", privacy policy = Google Sites. |
 | 2026-10-19 | Pushed to GitHub (`asmRakibulHasan/rj_code_craft_web`, branch `main`). |
