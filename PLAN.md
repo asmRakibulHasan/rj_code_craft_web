@@ -20,7 +20,7 @@ Goal: turn the "RJ Code Craft Website" design into a static site, host it on Git
 - [x] Create `index.html` with the same layout, copy, fonts (Space Grotesk + DM Sans) and colours (accent `#FFD23F`)
 - [x] Create `styles.css` that works at phone width (checked at 1440px and 390px)
 - [x] Privacy policy: link to the Google Sites page (decided 2026-10-19; local `privacy-policy.html` removed)
-- [ ] Fix the app name in the Google Sites policy: "Prank Sounds - Prank Unlimited" → "Prank Sounds: Air Horn & Taser" (**you do this on Google Sites**)
+- [x] Fix the app name in the Google Sites policy: now "Prank Sounds: Air Horn & Taser" everywhere (checked 2026-10-19; last updated 19 Oct 2026)
 - [x] Add `assets/favicon.svg`; keep the drawn phone mockup (decided 2026-10-19)
 - [~] Add SEO and share tags: title, description and Open Graph text are done; still need `og:image`, `og:url` and canonical URL once the live URL is known
 - [x] Add `404.html`
@@ -80,6 +80,7 @@ rj-code-craft-web/
 | Date | Update |
 |------|--------|
 | 2026-10-19 | Reviewed the design and wrote the plan (Phases 0–3). |
+| 2026-10-19 | Google Sites policy updated to the Play app name; checked. |
 | 2026-10-19 | Website added in Play Console; it now shows on the Play listing. |
 | 2026-10-19 | Website live on GitHub Pages; all links checked. Created the `asmRakibulHasan.github.io` repo; `app-ads.txt` is live at the domain root. |
 | 2026-10-19 | Added `app-ads.txt` (AdMob `pub-5915419200767915`). |
