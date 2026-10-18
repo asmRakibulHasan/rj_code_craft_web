@@ -18,7 +18,8 @@ Goal: turn the "RJ Code Craft Website" design into a static site, host it on Git
 ## Phase 1: Build the static website
 - [x] Create `index.html` with the same layout, copy, fonts (Space Grotesk + DM Sans) and colours (accent `#FFD23F`)
 - [x] Create `styles.css` that works at phone width (checked at 1440px and 390px)
-- [x] Create `privacy-policy.html` (copied word for word from the Google Sites page)
+- [x] Privacy policy: link to the Google Sites page (decided 2026-10-19; local `privacy-policy.html` removed)
+- [ ] Fix the app name in the Google Sites policy: "Prank Sounds - Prank Unlimited" → "Prank Sounds: Air Horn & Taser" (**you do this on Google Sites**)
 - [x] Add `assets/favicon.svg`; keep the drawn phone mockup (decided 2026-10-19)
 - [~] Add SEO and share tags: title, description and Open Graph text are done; still need `og:image`, `og:url` and canonical URL once the live URL is known
 - [x] Add `404.html`
@@ -30,7 +31,6 @@ Target structure:
 ```
 rj-code-craft-web/
 ├── index.html
-├── privacy-policy.html
 ├── styles.css
 ├── assets/
 ├── app-ads.txt      (if AdMob)
@@ -45,13 +45,13 @@ rj-code-craft-web/
 - [x] Push to `main`
 - [ ] Turn on Pages: Settings → Pages → deploy from `main` / root
 - [ ] (Optional) Custom domain: `CNAME` file + DNS records + enforce HTTPS
-- [ ] Check that the home page, privacy policy and all Play links open
+- [ ] Check that the home page, privacy policy link and all Play links open
 
 > Note: `app-ads.txt` must sit at the **domain root**. A project repo (`username.github.io/repo/`) won't work for it; use a user-site repo or a custom domain.
 
 ## Phase 3: Add to Google Play Console
 - [ ] Website: Grow users → Store presence → Store settings → Store listing contact details
-- [ ] Privacy policy: Policy and programs → App content → Privacy policy (for each app)
+- [x] Privacy policy: already set to the Google Sites page in Play Console (no change needed)
 - [ ] (Optional) Developer page → website
 - [ ] (If AdMob) Same developer website in Play, `app-ads.txt` live, then "Check for updates" in AdMob
 - [ ] Confirm the changes appear after review (hours to a few days)
@@ -63,7 +63,7 @@ rj-code-craft-web/
 |---|----------|--------|
 | 1 | GitHub username, and repo type (`username.github.io` or project repo)? | `asmRakibulHasan`, project repo `rj_code_craft_web` |
 | 2 | Do you use AdMob or other ads? AdMob publisher ID (`pub-…`)? | The privacy policy lists AdMob; need the publisher ID |
-| 3 | Privacy policy: copy into the site, or keep the Google Sites link? | Copied into the site (`privacy-policy.html`) |
+| 3 | Privacy policy: copy into the site, or keep the Google Sites link? | Keep using Google Sites; the website links there |
 | 4 | Custom domain, or `github.io` for now? | |
 | 5 | Real app icon and screenshots, or keep the drawn mockup? | Keep the drawn mockup |
 | 6 | App name: the site says "Prank Sounds: Air Horn & Taser" but the privacy policy says "Prank Sounds - Prank Unlimited". Which matches the Play listing? | |
@@ -77,5 +77,6 @@ rj-code-craft-web/
 | Date | Update |
 |------|--------|
 | 2026-10-19 | Reviewed the design and wrote the plan (Phases 0–3). |
+| 2026-10-19 | Privacy policy: switched to the Google Sites link and removed the local copy. Checked the Play listing: title "Prank Sounds: Air Horn & Taser", privacy policy = Google Sites. |
 | 2026-10-19 | Pushed to GitHub (`asmRakibulHasan/rj_code_craft_web`, branch `main`). |
 | 2026-10-19 | Phase 1 built: `index.html`, `styles.css`, `privacy-policy.html`, `404.html`, `assets/favicon.svg`, `README.md`, `.nojekyll`. Checked in Chrome at desktop and phone widths. Privacy links now point to the local page instead of Google Sites. |

@@ -507,76 +507,6 @@ p {
   color: var(--white);
 }
 
-/* Policy page */
-
-.policy {
-  max-width: 760px;
-  padding-top: 72px;
-  padding-bottom: 96px;
-  font-size: 17px;
-  line-height: 1.7;
-  color: var(--text);
-}
-
-.policy h1 {
-  font-size: 44px;
-  line-height: 1.1;
-  color: var(--ink);
-  margin-bottom: 24px;
-}
-
-.policy h2 {
-  font-size: 26px;
-  color: var(--ink);
-  margin-top: 48px;
-  margin-bottom: 12px;
-}
-
-.policy h3 {
-  font-family: var(--font-body);
-  font-size: 18px;
-  color: var(--ink);
-  margin-top: 24px;
-  margin-bottom: 8px;
-}
-
-.policy p + p {
-  margin-top: 12px;
-}
-
-.policy ul {
-  padding-left: 22px;
-  margin: 12px 0;
-}
-
-.policy li + li {
-  margin-top: 6px;
-}
-
-.policy a {
-  overflow-wrap: anywhere;
-}
-
-.policy-meta {
-  margin: 0 0 32px;
-  padding: 20px 24px;
-  border-radius: 16px;
-  background: var(--soft);
-  display: grid;
-  grid-template-columns: max-content 1fr;
-  gap: 6px 16px;
-  font-size: 15px;
-}
-
-.policy-meta dt {
-  font-weight: 700;
-  color: var(--ink);
-}
-
-.policy-meta dd {
-  margin: 0;
-}
-
 /* 404 */
 
 .not-found {
@@ -614,8 +544,7 @@ p {
     font-size: 40px;
   }
 
-  .section-title,
-  .policy h1 {
+  .section-title {
     font-size: 32px;
   }
 
@@ -634,10 +563,6 @@ p {
   .phone {
     width: 260px;
     height: 480px;
-  }
-
-  .policy {
-    padding-top: 48px;
   }
 }
 
