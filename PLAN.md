@@ -52,11 +52,12 @@ rj-code-craft-web/
 > Note: `app-ads.txt` must sit at the **domain root**. A project repo (`username.github.io/repo/`) won't work for it; use a user-site repo or a custom domain.
 
 ## Phase 3: Add to Google Play Console
-- [ ] Website: Grow users → Store presence → Store settings → Store listing contact details
+- [x] Website: Grow users → Store presence → Store settings → Store listing contact details (live on the Play listing)
 - [x] Privacy policy: already set to the Google Sites page in Play Console (no change needed)
 - [ ] (Optional) Developer page → website
-- [ ] (If AdMob) Same developer website in Play, `app-ads.txt` live, then "Check for updates" in AdMob
-- [ ] Confirm the changes appear after review (hours to a few days)
+- [x] (AdMob) Developer website set in Play and `app-ads.txt` live
+- [ ] In AdMob: Apps → app-ads.txt → "Check for updates" (verification can take up to 24h)
+- [x] Confirm the changes appear on the Play listing
 
 ---
 
@@ -79,6 +80,7 @@ rj-code-craft-web/
 | Date | Update |
 |------|--------|
 | 2026-10-19 | Reviewed the design and wrote the plan (Phases 0–3). |
+| 2026-10-19 | Website added in Play Console; it now shows on the Play listing. |
 | 2026-10-19 | Website live on GitHub Pages; all links checked. Created the `asmRakibulHasan.github.io` repo; `app-ads.txt` is live at the domain root. |
 | 2026-10-19 | Added `app-ads.txt` (AdMob `pub-5915419200767915`). |
 | 2026-10-19 | Privacy policy: switched to the Google Sites link and removed the local copy. Checked the Play listing: title "Prank Sounds: Air Horn & Taser", privacy policy = Google Sites. |
