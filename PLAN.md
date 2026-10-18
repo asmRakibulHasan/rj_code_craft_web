@@ -3,8 +3,8 @@
 Goal: turn the "RJ Code Craft Website" design into a static site, host it on GitHub Pages, and link it from Google Play Console.
 
 - Design source: https://claude.ai/artifact/9YktRogdYRj7DH8mnr7w1M
-- Live site URL: _TBD_
-- GitHub repo: _TBD_
+- Live site URL: https://asmrakibulhasan.github.io/rj_code_craft_web/ (once Pages is on)
+- GitHub repo: https://github.com/asmRakibulHasan/rj_code_craft_web
 
 **Status legend:** `[x]` done · `[ ]` to do · `[~]` in progress
 
@@ -40,9 +40,9 @@ rj-code-craft-web/
 ```
 
 ## Phase 2: Publish on GitHub Pages
-- [~] `git init` (done; branch is `master`, rename to `main` or deploy from `master`) and first commit
-- [ ] Create the GitHub repo (`<username>.github.io` recommended)
-- [ ] Push to `main`
+- [x] `git init` and first commit (`f0d4f2a`)
+- [x] Create the GitHub repo: `asmRakibulHasan/rj_code_craft_web` (project repo, so `app-ads.txt` needs a custom domain or a user-site repo)
+- [x] Push to `main`
 - [ ] Turn on Pages: Settings → Pages → deploy from `main` / root
 - [ ] (Optional) Custom domain: `CNAME` file + DNS records + enforce HTTPS
 - [ ] Check that the home page, privacy policy and all Play links open
@@ -61,7 +61,7 @@ rj-code-craft-web/
 ## Open questions
 | # | Question | Answer |
 |---|----------|--------|
-| 1 | GitHub username, and repo type (`username.github.io` or project repo)? | |
+| 1 | GitHub username, and repo type (`username.github.io` or project repo)? | `asmRakibulHasan`, project repo `rj_code_craft_web` |
 | 2 | Do you use AdMob or other ads? AdMob publisher ID (`pub-…`)? | The privacy policy lists AdMob; need the publisher ID |
 | 3 | Privacy policy: copy into the site, or keep the Google Sites link? | Copied into the site (`privacy-policy.html`) |
 | 4 | Custom domain, or `github.io` for now? | |
@@ -77,4 +77,5 @@ rj-code-craft-web/
 | Date | Update |
 |------|--------|
 | 2026-10-19 | Reviewed the design and wrote the plan (Phases 0–3). |
+| 2026-10-19 | Pushed to GitHub (`asmRakibulHasan/rj_code_craft_web`, branch `main`). |
 | 2026-10-19 | Phase 1 built: `index.html`, `styles.css`, `privacy-policy.html`, `404.html`, `assets/favicon.svg`, `README.md`, `.nojekyll`. Checked in Chrome at desktop and phone widths. Privacy links now point to the local page instead of Google Sites. |
